@@ -20,7 +20,7 @@ dbl.webhook.on('vote', async vote => {
   .setAuthor('EDGE vote Webhook', 'https://cdn.discordapp.com/emojis/338808864352763904.png') 
   .setDescription(`***${body.tag}*** Just voted EDGE\nWith ID: ${vote.user}`)
   .setTimestamp();
-  client.channels.get('528781217274003470').send(embed);
+  client.channels.get('541136524964790302').send(embed);
   console.log(`User with ID ${vote.user} just voted!`);
 });
 
